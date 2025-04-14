@@ -7,7 +7,7 @@ const services = [
     title: "Website Design & Development",
     description:
       "Modern, responsive, and SEO-optimized websites that represent your brand and engage your audience.",
-    img: "../../public/wd.png",
+    img: "./wd.png",
     moreInfo:
       "From static landing pages to full-stack dynamic platforms, we create web experiences that captivate users and boost conversions.",
   },
@@ -15,7 +15,7 @@ const services = [
     title: "Mobile App Development",
     description:
       "Innovative and user-friendly mobile apps for Android and iOS that boost business growth.",
-    img: "../../public/mad.png",
+    img: "./mad.png",
     moreInfo:
       "We build performance-optimized native and cross-platform mobile applications tailored to your business needs.",
   },
@@ -31,7 +31,7 @@ const services = [
     title: "Custom Software Development",
     description:
       "Tailored software solutions designed to streamline your business operations and enhance productivity.",
-    img: "../../public/csd.png",
+    img: "./csd.png",
     moreInfo:
       "We analyze your workflow and develop software solutions that improve performance and scalability across departments.",
   },
@@ -39,7 +39,7 @@ const services = [
     title: "Cloud Services",
     description:
       "Secure and scalable cloud solutions for data storage, backup, and infrastructure management.",
-    img: "../../public/cloud.png",
+    img: "./cloud.png",
     moreInfo:
       "We assist in migrating to the cloud, managing cloud infrastructure, and integrating cloud-native tools for optimized performance.",
   },
@@ -47,7 +47,7 @@ const services = [
     title: "IT Support & Maintenance",
     description:
       "24/7 technical support and maintenance services to keep your systems running smoothly and efficiently.",
-    img: "../../public/itm.png",
+    img: "./itm.png",
     moreInfo:
       "Get proactive monitoring, instant issue resolution, and long-term IT infrastructure support.",
   },
