@@ -46,8 +46,8 @@ const Home = () => {
                       is to simplify your life with our innovative
                       products and services.
                     </p>
-                    <div className="text-center "><Link to="contact">
-                      <button className="contact-us-btn text-start">
+                    <div className="text-center p-4 "><Link to="contact">
+                      <button className="contact-us-btn text-start ">
                         Contact Us
                       </button></Link>
                     </div>
