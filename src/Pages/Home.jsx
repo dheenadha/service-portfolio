@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "./Particle";
 import Type from "./Type";
-import animationData from "../Assets/home.json";
+import animationData from "./home.json";
 import Lottie from "lottie-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
