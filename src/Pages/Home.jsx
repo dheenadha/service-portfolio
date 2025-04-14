@@ -34,10 +34,10 @@ const Home = () => {
                   </h1>
 
                   <div style={{ padding: 50, textAlign: "left" }}>
-                    <h1 className="diagonal-text text-uppercase p-2">
+                    <h1 className="diagonal-text text-uppercase p-2" style={{ fontSize: "28px" }}>
                       We Develop,{" "}
                     </h1>
-                    <div className="fs-3 p-2">
+                    <div className="fs-4 p-2">
                       <Type />
                     </div>
                     <p className=" fs-5 p-2">
