@@ -43,7 +43,7 @@
   border: 1px solid rgba(0, 191, 255, 0.25);
   border-radius: 1rem;
   padding: 1rem;
-  width: 100%;
+  width:100%;
   max-width: 100px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -81,6 +81,7 @@
   background: linear-gradient(to right, #f9b233, #ffcc00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 /* ===== Responsive Design ===== */

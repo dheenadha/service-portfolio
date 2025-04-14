@@ -94,7 +94,7 @@ const teamMembers = [
     name: 'Rasith Khan',
     role: 'UI/UX Designer',
     bio: 'Project',
-    linkedin: 'https://www.linkedin.com/in/giridharan-sivaramakrishnan-6325ab293/',
+    linkedin: 'https://www.linkedin.com/in/rasithkhan',
     email: 'khanrasith281@gmail.com ',
     skills: ['Figma','Adobe XD','Photoshop','Illustrator','Primer Pro'],
   },
