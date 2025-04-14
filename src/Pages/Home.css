@@ -1,0 +1,181 @@
+/* General Home Section Styling */
+.home-header {
+  padding-top: 40px !important;
+  color: #fff;
+  margin-top: 30px;
+  /* aliceblue; */
+}
+
+/* Curved Background */
+.curved-border {
+  margin-top: 0px !important;
+  height: 650px;
+  background: linear-gradient(110deg, #003a84);
+  border-bottom-right-radius: 100% 90%;
+  z-index: 0;
+}
+
+/* Responsive Curved Border */
+@media (max-width: 768px) {
+  .curved-border {
+    height: auto;
+    padding-bottom: 2rem;
+    border-bottom-right-radius: 0;
+  }
+}
+
+/* Shake Animation */
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px);
+  }
+  40% {
+    transform: translate(5px);
+  }
+  60% {
+    transform: translate(-5px);
+  }
+  80% {
+    transform: translate(5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.img-fluid {
+  animation: shake 20s infinite;
+  height: auto;
+  width: 150%;
+  max-width: 130%;
+}
+
+.img-fluids {
+  animation: shake 20s infinite;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Image Responsive Hide (Handled via component with d-none d-md-block) */
+
+/* Contact Button */
+.contact-us-btn {
+  background: linear-gradient(
+    90deg,
+    #008a44,
+    #00c776
+  ); /* updated green gradient */
+  color: #ffffff; /* white text for contrast */
+  padding: 12px 35px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.contact-us-btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Wave Animation */
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0%,
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+/* About Section */
+.stat-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  min-width: 150px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-primary-dark {
+  color: #070249;
+}
+
+/* Responsive Typography & Layout Adjustments */
+@media (max-width: 768px) {
+  .home-header {
+    padding-top: 40px !important;
+    text-align: center;
+  }
+
+  .contact-us-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .diagonal-text {
+    font-size: 24px !important;
+    text-align: center;
+  }
+
+  .stat-card {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+  }
+
+  .fs-3 {
+    font-size: 1.5rem !important;
+  }
+
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+}
+
+/* Tablet View: Set .img-fluid max-width to 100% */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-fluid {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .gradient-line {
+    margin-left: 33% !important;
+    margin-right: 0 !important;
+  }
+}

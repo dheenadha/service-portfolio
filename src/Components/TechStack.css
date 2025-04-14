@@ -1,0 +1,137 @@
+/* ===== Animations ===== */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* ===== Techstack Section Main ===== */
+.techstack-section {
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+
+}
+
+/* ===== Section Headings ===== */
+.techstack-section h2 {
+  color: #003a84 !important;
+  animation: slideInRight 0.8s ease-in-out;
+}
+
+.techstack-section h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.techstack-section p {
+  color: #003a84 !important;
+  font-size: 1.05rem;
+}
+
+/* ===== Glass Cards ===== */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 191, 255, 0.25);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 100px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #003a84 !important;
+  box-shadow: 0 4px 12px rgba(0, 191, 255, 0.25) !important;
+}
+
+.glass-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.glass-card img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.glass-card:hover img {
+  transform: rotate(10deg) scale(1.05);
+}
+
+.glass-card small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #003a84 !important;
+}
+
+/* Gradient Titles */
+.frontend-title,
+.backend-title,
+.Design-title,
+.tools-title {
+  background: linear-gradient(to right, #f9b233, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .techstack-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .techstack-section p {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .glass-card {
+    width: 70px;
+    padding: 0.6rem;
+    margin: 0.5rem auto;
+  }
+
+  .glass-card img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .glass-card small {
+    font-size: 0.75rem;
+  }
+
+  .container-fluid.scroll-item {
+    padding: 2rem 1rem;
+  }
+
+  .row.w-100.align-items-center.justify-content-center {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .col-md-5,
+  .col-md-6 {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
+  .d-flex.flex-wrap.gap-3.mt-2 {
+    justify-content: center !important;
+    gap: 0.75rem !important;
+  }
+  .img-tech {
+    display: none;
+  }
+
+}

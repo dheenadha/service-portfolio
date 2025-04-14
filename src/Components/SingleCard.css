@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.profile-card {
+  background: #fff;
+  color: rgb(7, 6, 6);
+  border-radius: 30px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 191, 255, 0.25);
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+.profile-card-background {
+  width: 200px;
+  height: 95px;
+  background: linear-gradient(45deg, #004080, #00bfff);
+  color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: scaleY(-1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 12px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 0px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  background: linear-gradient(45deg, #001f4d 0%, #66a6ff 50%, #003a84 100%);
+  padding: 0px 0px 0px 5px;
+  top: -20px;
+  transform: rotate(330deg); /*border rotate */
+}
+
+.profile-team-photo {
+  transform: rotate(205deg); /*Photo Rotate position*/
+  transition: transform 0.5s ease;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  padding: 3px;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-info h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #2c2c2c;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #444;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.social-icons a {
+  color: #0077b5;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #005582;
+}
+
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+  min-width: 200px;
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .profile-card-background {
+    width: 100%;
+    height: 120px;
+    border-radius: 16px 16px 0 0;
+    transform: scaleY(-1);
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 130px;
+    margin-top: -40px;
+    transform: rotate(330deg);
+  }
+
+  .profile-info {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .profile-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    gap: 10px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsive for small devices / phones */
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 140px;
+    margin-top: -40px;
+    transform: rotate(330deg);
+  }
+
+  .profile-info h2 {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .social-icons {
+    font-size: 1rem;
+  }
+}

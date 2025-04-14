@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.team-card {
+  width: 270px; 
+  height: auto;
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 191, 255, 0.25);
+  text-align: center;
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+  justify-content: space-between;
+}
+
+.card-top-background {
+  height: 110px;
+  background: linear-gradient(45deg, #004080, #00bfff);
+  color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: scaleY(-1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 12px;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-photo-wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 0px;
+  overflow: hidden;
+  border-radius:50%; 
+  border: 3px solid #eee;
+  background: linear-gradient(45deg, #001F4D 0%, #66a6ff 50%, #003A84 100%);
+  padding: 0px 0px 0px 5px;
+  top: -20px;
+  transform: rotate(20deg);
+}
+
+.team-photo {
+  transform: rotate(160deg);
+  transition: transform 0.5s ease;
+}
+
+.team-photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  padding: 3px;
+}
+
+.team-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 60px 0 5px;
+}
+
+.team-role {
+  font-size: 1rem;
+  color: #2c2c2c;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.team-bio {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.team-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.team-icons a {
+  color: #0077b5;
+  transition: color 0.3s;
+}
+
+.team-icons a:hover {
+  color: #005582;
+}
+
+
+
+.skill-list-text {
+  margin-top: 10px;
+  text-align: center; 
+  font-style: italic;
+  color: #0d47a1;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+ .skills-inline {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+} 
+
+.skill-heading {
+  font-size: 14px;
+  color: #777;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.skills-inline span {
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.skills-inline span:hover {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
