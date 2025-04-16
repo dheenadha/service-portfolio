@@ -26,12 +26,12 @@ const Home = () => {
                     </span>
                   </h1>
 
-                  <h1 className="heading-name">
+                  <h2 className="heading-name">
                     <strong className="main-name">
                       {" "}
                       We Are Developers From INDIA
                     </strong>
-                  </h1>
+                  </h2>
 
                   <div style={{ padding: 50, textAlign: "left" }}>
                     <h1 className="diagonal-text text-uppercase p-2" style={{ fontSize: "28px" }}>
