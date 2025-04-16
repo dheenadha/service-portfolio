@@ -10,7 +10,7 @@
 .curved-border {
   margin-top: 0px !important;
   height: 650px;
-  background: linear-gradient(110deg, #003a84);
+  background:  #003a84;
   border-bottom-right-radius: 100% 90%;
   z-index: 0;
 }
