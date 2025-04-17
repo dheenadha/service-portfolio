@@ -27,6 +27,7 @@ const techStack = {
       name: "Flutter",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
     },
+    
   ],
   backend: [
     {
@@ -85,6 +86,10 @@ const techStack = {
     {
       name: "VS Code",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+    },
+    {
+      name: "pycharm",
+      icon: "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png",
     },
   ],
 };

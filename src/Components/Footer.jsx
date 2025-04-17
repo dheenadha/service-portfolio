@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/la.jpg";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   const socialLinks = {
     facebook: "https://www.facebook.com/yourpage",
@@ -75,7 +76,8 @@ const Footer = () => {
         <div className="container text-center text-md-start mt-5">
           <div className="row mt-3">
             {/* Company Info */}
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
               <h4 className="text-uppercase fw-bold mb-4">
                 <img
                   src={image}

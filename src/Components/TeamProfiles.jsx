@@ -10,8 +10,8 @@ import dheenaImage from '../assets/download.jpeg';
 import giriImage from '../assets/images (1).jpeg';
 import giriImage1 from '../assets/Anbu.jpg';
 import giriImage2 from '../assets/Rasith.jpg';
-import ProfileCard from './SingleCard';
-import './SingleCard.css';
+// import ProfileCard from './SingleCard';
+// import './SingleCard.css';
 
 const teamMembers = [
   // {
@@ -106,9 +106,9 @@ const TeamProfiles = () => {
     <div className="team-section">
       <h1 className="team-title">Our Team</h1>
 
-      <div className="featured-profile">
+      {/* <div className="featured-profile">
           <ProfileCard/>
-      </div> 
+      </div>  */}
 
       <div className="team-grid">
         {teamMembers.map((member, index) => (
