@@ -51,6 +51,30 @@ const services = [
     moreInfo:
       "Get proactive monitoring, instant issue resolution, and long-term IT infrastructure support.",
   },
+  {
+    title: "AI & ML",
+    description:
+      "Smart solutions powered by AI & ML.",
+    img: "./AIML.png",
+    moreInfo:
+      "We build intelligent systems that learn and adapt to your business needs.Unlock data-driven automation with cutting-edge AI & machine learning models.",
+  },
+  {
+    title: "Blockchain",
+    description:
+      "Secure and transparent blockchain solutions.",
+    img: "./blockchain.png",
+    moreInfo:
+      "Empower your business with decentralized apps and smart contracts.We ensure trust, transparency, and tamper-proof transactions using blockchain tech.",
+  },
+  {
+    title: "Deep Learning",
+    description:
+      "Advanced insights with deep learning.",
+    img: "./deep Larning.png",
+    moreInfo:
+      "We develop neural network-based systems for complex tasks like vision and language.Achieve higher accuracy and automation with deep learning algorithms.",
+  },
 ];
 
 const Services = () => {
