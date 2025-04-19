@@ -2,14 +2,14 @@ import React from 'react';
 import TeamProfileCard from './TeamProfileCard'; 
 import './TeamProfiles.css';
 import vishnuImage from '../assets/vishnu.jpg';
-import bharaniImage from '../assets/download (1).jpeg';
-import vijayImage from '../assets/vijay.jpg';
+import bharaniImage from '../assets/bharani.jpg';
+import vijayImage from '../assets/vijay2.jpg';
 import kaviyaImage from '../assets/download (2).jpeg';
-import fasilImage from '../assets/download (4).jpeg';
-import dheenaImage from '../assets/download.jpeg';
-import giriImage from '../assets/images (1).jpeg';
-import giriImage1 from '../assets/Anbu.jpg';
-import giriImage2 from '../assets/Rasith.jpg';
+import fasilImage from '../assets/fasil.jpg';
+import dheenaImage from '../assets/dheena.jpg';
+import giriImage from '../assets/giri.jpg';
+import anbu from '../assets/Anbu.jpg';
+import rasith from '../assets/karn.jpg';
 // import ProfileCard from './SingleCard';
 // import './SingleCard.css';
 
@@ -81,7 +81,7 @@ const teamMembers = [
     skills: ['Node.js','Express.js','MySQL','MongoDB','Postman API'],
   },
   {
-    image: giriImage2,
+    image: anbu,
     name: 'Anbu liyon',
     role: 'Back End Developer',
     bio: 'Project',
@@ -90,7 +90,7 @@ const teamMembers = [
     skills: ['Node.js','Express.js','MySQL','MongoDB','Postman API'],
   },
   {
-    image: giriImage1,
+    image: rasith,
     name: 'Rasith Khan',
     role: 'UI/UX Designer',
     bio: 'Project',

@@ -54,7 +54,7 @@ const services = [
   {
     title: "AI & ML",
     description:
-      "Smart solutions powered by AI & ML.",
+      "AI and ML transform industries through automation, prediction, and innovation.",
     img: "./AIML.png",
     moreInfo:
       "We build intelligent systems that learn and adapt to your business needs.Unlock data-driven automation with cutting-edge AI & machine learning models.",
@@ -62,7 +62,7 @@ const services = [
   {
     title: "Blockchain",
     description:
-      "Secure and transparent blockchain solutions.",
+      "Blockchain secures digital transactions through decentralized and transparent data systems.",
     img: "./blockchain.png",
     moreInfo:
       "Empower your business with decentralized apps and smart contracts.We ensure trust, transparency, and tamper-proof transactions using blockchain tech.",
@@ -70,7 +70,7 @@ const services = [
   {
     title: "Deep Learning",
     description:
-      "Advanced insights with deep learning.",
+      "Deep learning transforms data into intelligent, predictive decision systems.",
     img: "./deep Larning.png",
     moreInfo:
       "We develop neural network-based systems for complex tasks like vision and language.Achieve higher accuracy and automation with deep learning algorithms.",

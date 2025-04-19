@@ -95,6 +95,14 @@ const techStack = {
       name: "pycharm",
       icon: "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png",
     },
+    {
+      name: "Cardano",
+      icon: "https://www.cryptologos.cc/logos/cardano-ada-logo.png?v=040",
+    },
+    {
+      name: "pytorch",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKw8U_gkEmwPun7UlQDuqrQEoExdlVLhBXzRto5FMGhOjQqRcXT-x1Gj7zVS2HVJim-U4&usqp=CAU",
+    },
   ],
 };
 

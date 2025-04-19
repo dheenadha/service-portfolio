@@ -110,7 +110,7 @@ const Nav = () => {
           <Link to="/contact">Contact Us</Link>
         </li>
         <li>
-          <Link to="/about">Investor Relations</Link>
+          <Link to="/investor">Investor Relations</Link>
         </li>
       </ul>
     </nav>

@@ -14,6 +14,8 @@ import React, { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Nav from "./Components/Nav";
 import TechStack from "./Components/TechStack";
+import ClientCard from "./Components/ClientCard";
+import CEOIntroCard from "./Components/CEOFounder";
 
 function App() {
   const homeRef = useRef(null);
@@ -23,8 +25,9 @@ function App() {
   const techstackRef = useRef(null);
   const projectsRef = useRef(null)
   const contactRef = useRef(null);
-
+  const clientRef = useRef(null);
   const location = useLocation();
+  const ceocardRef = useRef();
 
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -41,11 +44,17 @@ function App() {
       case "/services":
         scrollToSection(servicesRef);
         break;
+      case "/client":
+        scrollToSection(clientRef);
+        break;
       case "/team":
         scrollToSection(teamRef);
         break;
       case "/contact":
         scrollToSection(contactRef);
+        break;
+      case "/investor":
+        scrollToSection(ceocardRef);
         break;
       case "/techstack":
         scrollToSection(techstackRef);
@@ -101,6 +110,9 @@ function App() {
         <div ref={servicesRef}>
           <Services />
         </div>
+        <div ref={clientRef}>
+          <ClientCard />
+        </div>
         <div ref={teamRef}>
           <TeamProfiles />
         </div>
@@ -112,6 +124,9 @@ function App() {
         </div>
         <div ref={contactRef}>
           <Contact />
+        </div>
+        <div ref={ceocardRef}>
+          <CEOIntroCard />
         </div>
         <Footer />
       </div>

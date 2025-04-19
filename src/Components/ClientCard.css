@@ -1,0 +1,213 @@
+.topics-section {
+    max-width: 320px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .topics-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: #1f2937; /* slate-800 */
+  }
+  
+ .client-card {
+    min-width: 300px;
+    min-height: 300px;
+    margin-top: 60px;
+    padding: 14px;
+    background: linear-gradient(white, white) padding-box,
+                 linear-gradient(135deg, #3b82f6, #06b6d4) border-box;
+    border: 1px solid transparent;
+    border-top: 3px solid #3b82f6;
+    border-bottom: 3px solid #06b6d4;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; 
+  }
+  .client-card::before,
+.client-card::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 0 0 0 20px;
+  z-index: 1;
+}
+
+/* .client-card::before {
+  top: 0;
+  left: 0;
+  border-top: 3px solid #3b82f6;
+  border-left: 3px solid #3b82f6;
+  border-top-left-radius: 20px;
+}
+
+.client-card::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid #06b6d4;
+  border-right: 3px solid #06b6d4;
+  border-bottom-right-radius: 20px;
+} */
+
+.card-clientname{
+    margin-top: 30%;
+    margin-left: 60%;
+}
+
+  .icon-wrapper {
+    width: 66px; 
+    height: 66px;
+    background-color: #fff4e5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -48px auto 16px;
+    box-shadow: 0 2px 5px rgba(255, 165, 0, 0.3);
+    }
+  
+  .icon {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .card-underline {
+    width: 100px;
+    height: 4px;
+    background-color: #f97316;
+    border-radius: 9999px;
+    margin: 0 auto;
+  }
+
+  .client-button {
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .client-button:hover {
+    background: linear-gradient(to right, #2563eb, #0ea5e9);
+    transform: translateY(-1px);
+  }
+
+  .img-clientfluid {
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* .modal-content{
+    background-Color: "rgba(13, 110, 253, 0.7)";
+  } */
+
+  .card-features {
+    margin-top: 1.5rem;
+    text-align: left;
+  }
+  
+  /* .features-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top:0.6em;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .features-list li {
+    position: relative;
+    padding-left: 0.5rem;
+    margin-left: 10px;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .features-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 30px;
+    color: #007bff;
+    font-weight: bold;
+  } */
+  
+
+  .features-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top:0.6em;
+    margin-bottom: 0.8rem;
+    color: #333;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem;
+    justify-items: center;
+  }
+  
+  .feature-item {
+    background-color: #dadde0;
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    font-size: 0.75rem;
+    color: #333;
+    transition: background 0.3s;
+  }
+  .features-list li {
+  position: relative;
+  padding: 10px 16px;
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #555;
+  border: 1px solid #ddd; /* 👈 Light gray border */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+  
+  .feature-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .feature-icon {
+    font-size: 1.2rem;
+  }
