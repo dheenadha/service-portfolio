@@ -3,7 +3,7 @@ import TeamProfileCard from './TeamProfileCard';
 import './TeamProfiles.css';
 import vishnuImage from '../assets/vishnu.jpg';
 import bharaniImage from '../assets/bharani.jpg';
-import vijayImage from '../assets/vijay2.jpg';
+import vijayImage from '../assets/vijay.jpg';
 import kaviyaImage from '../assets/download (2).jpeg';
 import fasilImage from '../assets/fasil.jpg';
 import dheenaImage from '../assets/dheena.jpg';
