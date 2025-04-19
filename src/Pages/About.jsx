@@ -3,9 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import image from "../assets/Home10.png";
 import "./Home.css";
 const stats = [
-  { number: "9", label: "Time Size" },
+  { number: "8", label: "Time Size" },
   { number: "6+", label: "Demo Project" },
-  { number: "6+", label: "Services" },
+  { number: "9", label: "Services" },
 ];
 const About = () => {
   return (

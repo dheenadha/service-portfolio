@@ -22,7 +22,7 @@ const services = [
   {
     title: "UI/UX Designing",
     description:
-      '"Designing user-friendly, secure experiences for a safer digital world."',
+      "Designing user-friendly, secure experiences for a safer digital world.",
     img: "./ui.png",
     moreInfo:
       "Blending aesthetic design with cutting-edge security, our UI/UX approach ensures seamless, safe, user-centric digital experiences.",
