@@ -9,7 +9,7 @@ import fasilImage from '../assets/fasil.jpg';
 import dheenaImage from '../assets/dheena.jpg';
 import giriImage from '../assets/Giri1.jpg';
 import anbu from '../assets/anbu.jpg';
-import rasith from '../assets/rasith.jpg';
+import rasith from '../assets/rasith1.jpg';
 // import ProfileCard from './SingleCard';
 // import './SingleCard.css';
 
