@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, CardContent } from "../Components/Card";
 import "./CEOFounder.css";
-import CEOimage from "../assets/download (1).jpeg";
-import cofounderimage from "../assets/download (4).jpeg";
+import CEOimage from "../assets/founder1.jpg";
+import cofounderimage from "../assets/vishnu.jpg";
 import logo from "../assets/la.jpg"
 const CEOIntroCard = () => {
   return (
@@ -27,7 +27,7 @@ const CEOIntroCard = () => {
                 <img src={CEOimage} alt="CEO" className="angled-image" />
               </div>
               <div className="card-text">
-                <div className="card-label ceo-label-left">Founder</div>
+                <div className="card-label ceo-label-left">Founder & CEO</div>
                 <h2 className="card-name">Gopinath G</h2>
               </div>
             </CardContent>

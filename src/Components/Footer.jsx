@@ -1,7 +1,6 @@
 import React from "react";
 import image from "../assets/la.jpg";
 import { Link } from "react-router-dom";
-
 const Footer = () => {
   const socialLinks = {
     facebook: "https://www.facebook.com/yourpage",
