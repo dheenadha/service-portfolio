@@ -82,7 +82,7 @@ const teamMembers = [
   },
   {
     image: anbu,
-    name: 'Anbu liyon',
+    name: 'Anbu Liyon',
     role: 'Back End Developer',
     bio: 'Project',
     linkedin: 'https://www.linkedin.com/in/anbu-liyon-068352284',
