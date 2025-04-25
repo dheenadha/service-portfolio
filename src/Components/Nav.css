@@ -358,7 +358,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .menu-links {
     flex-direction: column;
     background: #003a84;
