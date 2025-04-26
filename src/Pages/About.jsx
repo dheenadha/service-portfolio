@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import image from "../assets/Home10.png";
 import "./Home.css";
 const stats = [
-  { number: "21", label: "Time Size" },
+  { number: "21+", label: "Time Size" },
   { number: "6+", label: "Demo Project" },
   { number: "9", label: "Services" },
 ];
