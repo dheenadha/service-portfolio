@@ -133,9 +133,8 @@ function App() {
          <div ref={invRef}>
           <Investors />
         </div>
-        <div ref={ceocardRef}>
           <CEOIntroCard />
-        </div>
+        
         <Footer />
       </div>
     </>
