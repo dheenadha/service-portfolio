@@ -16,6 +16,7 @@ import Nav from "./Components/Nav";
 import TechStack from "./Components/TechStack";
 import ClientCard from "./Components/ClientCard";
 import CEOIntroCard from "./Components/CEOFounder";
+import Investors from "./Components/Investors";
 
 function App() {
   const homeRef = useRef(null);
@@ -28,6 +29,7 @@ function App() {
   const clientRef = useRef(null);
   const location = useLocation();
   const ceocardRef = useRef();
+  const invRef = useRef();
 
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -59,8 +61,11 @@ function App() {
       case "/techstack":
         scrollToSection(techstackRef);
         break;
-        case "/projects":
+      case "/projects":
         scrollToSection(projectsRef);
+        break;
+      case "/investors":
+        scrollToSection(invRef);
         break;
       default:
         scrollToSection(homeRef);
@@ -124,6 +129,9 @@ function App() {
         </div>
         <div ref={contactRef}>
           <Contact />
+        </div>
+         <div ref={invRef}>
+          <investors />
         </div>
         <div ref={ceocardRef}>
           <CEOIntroCard />
