@@ -22,7 +22,7 @@ const Investors = () => {
             </div>
           </div>
 
-          <h2 className="text-gray-800 text-xl font-semibold mb-1 shadow-sm border-[2px] border-blue-500/25 bg-blue-500/25 w-44 text-center shadow-blue-500/75">
+          <h2 className="text-gray-800 text-xl font-semibold mb-1 shadow-sm border-[2px] border-blue-500/25 bg-blue-500/25 w-44 text-center shadow-blue-500/75 rounded-xl">
             G.Saranya
           </h2>
           <div className="flex">
