@@ -131,7 +131,7 @@ function App() {
           <Contact />
         </div>
          <div ref={invRef}>
-          <investors />
+          <Investors />
         </div>
         <div ref={ceocardRef}>
           <CEOIntroCard />
