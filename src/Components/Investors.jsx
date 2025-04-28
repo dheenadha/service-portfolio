@@ -1,6 +1,6 @@
 import React from "react";
-import investor1 from "../assets/investor1.jpg";
-import investor2 from "../assets/investor2.jpg";
+import investor1 from "../assets/Saranya.jpg";
+import investor2 from "../assets/Kathi.jpg";
 import { PiBuildings } from "react-icons/pi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
