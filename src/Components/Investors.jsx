@@ -18,7 +18,7 @@ const Investors = () => {
     <div class="flip-card-front">
       <div class="profile-image">
         <div class="name">
-         <h4 className="investor-name   ">SG Group</h4>
+         <h4 className="investor-name   ">SG Groups</h4>
         </div>
         <p className="fs-5 p-2"><FaLocationDot className="fs-4" />Vellore</p>
       </div>
