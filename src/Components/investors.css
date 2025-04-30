@@ -13,7 +13,7 @@
 .investor-cards-container {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 6rem;
   margin-top: 3rem;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
@@ -21,10 +21,10 @@
 /* From Uiverse.io by aadium */ 
 /* From Uiverse.io by aadium */ 
 .flip-card {
-  background-color: transparent;
+  /* background-color: transparent; */
   width: 245px;
   height: 250px;
-
+  justify-content: center;
 }
 /* .flip-card:hover{
   transform: translateY(-1.5rem);
